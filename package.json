@@ -5,6 +5,7 @@
   "description": "Traduora - translation management platform for teams",
   "repository": "https://github.com/traduora/traduora",
   "scripts": {
+    "postinstall": "./bin/build.sh",
     "fmt": "prettier --write \"**/*.ts\""
   },
   "devDependencies": {

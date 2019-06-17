@@ -2,6 +2,6 @@
 
 set -e
 
-yarn
+# yarn
 cd webapp && yarn
 cd ../api && yarn
