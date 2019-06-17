@@ -100,7 +100,7 @@ metadata:
   labels:
     app: traduora
 data:
-  TR_PORT: "8080"
+  PORT: "8080"
   TR_AUTH_TOKEN_EXPIRE: "8600"
   TR_DB_DATABASE: "traduora_preview"
   TR_DB_HOST: "traduora-mysqldb"

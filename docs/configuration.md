@@ -9,7 +9,7 @@ The API server can be configured via the following environment variables:
 | Environment variable | Description | Default value |
 |-----------------|-------------|---------|
 | NODE_ENV | the node runtime environment | dev |
-| TR_PORT | the port on which the server will listen on | 8080 |
+| PORT | the port on which the server will listen on | 8080 |
 | TR_SECRET | the application secret, used i.e. for signing and verifying JWT, it is **strongly** recommended that you do not use the default one | secret |
 | TR_VIRTUAL_HOST | the virtual host tells the server under which domain you are hosting the webapp, used i.e. to correctly format URLs and links in emails | http://localhost:8080 |
 | TR_DB_HOST | the MySQL DB host | 127.0.0.1 |
